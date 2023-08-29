@@ -1,0 +1,95 @@
+/* toolset Field */
+.dynamic-content-elements-toolset a{
+  display: block;
+}
+.madxartwork-widget-dyncontel-toolset .tx-before{
+
+}
+/**/
+.madxartwork-widget-dyncontel-toolset.forcewidth-yes img, 
+.madxartwork-widget-dyncontel-toolset.forcewidth-yes .toolset-image{
+    width: 100%;
+    display: block;
+}
+.madxartwork-widget-dyncontel-toolset .mask{
+  overflow: hidden;
+}
+/* toolset Fields - IMAGE */
+.madxartwork-widget-dyncontel-toolset .toolset-image{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.madxartwork-widget-dyncontel-toolset.align-dce-left .toolset-image{
+  margin-right: auto;
+}
+.madxartwork-widget-dyncontel-toolset.align-dce-center .toolset-image{
+  margin-left: auto;
+  margin-right: auto;
+}
+.madxartwork-widget-dyncontel-toolset.align-dce-right .toolset-image{
+  margin-left: auto;
+}
+.madxartwork-widget-dyncontel-toolset .toolset-image:hover .dce-overlay_hover{
+    opacity: 1;
+}
+.madxartwork-widget-dyncontel-toolset .toolset-bg-image{
+  position: relative;
+  display: block;
+}
+
+
+
+/* toolset Fields - VIDEO */
+.madxartwork-widget-dyncontel-toolset .madxartwork-open-lightbox iframe {
+  display: none; 
+}
+.madxartwork-widget-dyncontel-toolset embed, 
+.madxartwork-widget-dyncontel-toolset iframe, 
+.madxartwork-widget-dyncontel-toolset object, 
+.madxartwork-widget-dyncontel-toolset video {
+    display: block;
+}
+.madxartwork-widget-dyncontel-toolset .madxartwork-open-inline .madxartwork-custom-embed-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50%; 
+}
+.madxartwork-widget-dyncontel-toolset .madxartwork-custom-embed-image-overlay {
+  cursor: pointer;
+  text-align: center; 
+}
+.madxartwork-widget-dyncontel-toolset .madxartwork-custom-embed-image-overlay:hover .madxartwork-custom-embed-play i {
+  opacity: 0.9;
+  text-shadow: 3px 2px 30px rgba(0, 0, 0, 0.6); 
+}
+.madxartwork-widget-dyncontel-toolset .madxartwork-custom-embed-image-overlay img {
+  display: block;
+  width: 100%; 
+}
+.madxartwork-widget-dyncontel-toolset.align-dce-center .toolset-bg-image{
+  margin: 0 auto;
+}
+.madxartwork-widget-dyncontel-toolset.align-dce-right .toolset-bg-image{
+  margin: 0 0 0 auto;
+}
+.madxartwork-widget-dyncontel-toolset.align-dce-justify .toolset-bg-image{
+  display: inline;
+}
+.dynamic-content-for-madxartwork-toolset{
+  position: relative;
+  transition: all 0.5s ease;
+}
+.dynamic-content-for-madxartwork-toolset .edc-toolset{
+  transition: all 0.5s ease;
+}
+.madxartwork-widget-dyncontel-toolset.align-dce-justify .dynamic-content-for-madxartwork-toolset{
+  display: block;
+  text-align: center;
+}
+

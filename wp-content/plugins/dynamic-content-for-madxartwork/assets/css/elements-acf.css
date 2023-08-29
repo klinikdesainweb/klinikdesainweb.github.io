@@ -1,0 +1,142 @@
+/* ACF Field */
+.dynamic-content-elements-acf a{
+  display: block;
+}
+.madxartwork-widget-dyncontel-acf .tx-before{
+
+}
+/**/
+.madxartwork-widget-dyncontel-acf.madxartwork-drop-cap-view-stacked .madxartwork-drop-cap {
+  background-color: #818a91;
+  color: #fff; 
+}
+.madxartwork-widget-dyncontel-acf.madxartwork-drop-cap-view-framed .madxartwork-drop-cap {
+  color: #818a91;
+  border: 3px solid;
+  background-color: transparent; 
+}
+.madxartwork-widget-dyncontel-acf:not(.madxartwork-drop-cap-view-default) .madxartwork-drop-cap {
+  margin-top: 8px; }
+  .madxartwork-widget-dyncontel-acf:not(.madxartwork-drop-cap-view-default) .madxartwork-drop-cap-letter {
+    width: 1em;
+    height: 1em; 
+}
+.madxartwork-widget-dyncontel-acf .madxartwork-drop-cap {
+  float: left;
+  text-align: center;
+}
+.madxartwork-widget-dyncontel-acf .madxartwork-drop-cap-letter {
+  display: inline-block; 
+  line-height: 1;
+  font-size: 50px;
+}
+/**/
+.madxartwork-widget-dyncontel-acf.forcewidth-yes img, 
+.madxartwork-widget-dyncontel-acf.forcewidth-yes .acf-image,
+.madxartwork-widget-dyncontel-acf.forcewidth-yes .dynamic-content-for-madxartwork-acf{
+    width: 100%;
+    display: block;
+}
+.madxartwork-widget-dyncontel-acf .mask{
+  overflow: hidden;
+}
+/* ACF Fields - IMAGE */
+.madxartwork-widget-dyncontel-acf .acf-image{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.madxartwork-widget-dyncontel-acf .acf-image img{
+  width: 100%;
+}
+.madxartwork-widget-dyncontel-acf.align-dce-left .acf-image{
+  margin-right: auto;
+}
+.madxartwork-widget-dyncontel-acf.align-dce-center .acf-image{
+  margin-left: auto;
+  margin-right: auto;
+}
+.madxartwork-widget-dyncontel-acf.align-dce-right .acf-image{
+  margin-left: auto;
+}
+.madxartwork-widget-dyncontel-acf .acf-image:hover .dce-overlay_hover{
+    opacity: 1;
+}
+.madxartwork-widget-dyncontel-acf .acf-bg-image{
+  position: relative;
+  display: block;
+}
+/* ACF Fields - VIDEO */
+.madxartwork-widget-dyncontel-acf .madxartwork-open-lightbox iframe {
+  display: none; 
+}
+.madxartwork-widget-dyncontel-acf embed, 
+.madxartwork-widget-dyncontel-acf iframe, 
+.madxartwork-widget-dyncontel-acf object, 
+.madxartwork-widget-dyncontel-acf video {
+    display: block;
+}
+.madxartwork-widget-dyncontel-acf .madxartwork-open-inline .madxartwork-custom-embed-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50%; 
+}
+.madxartwork-widget-dyncontel-acf .madxartwork-custom-embed-image-overlay {
+  cursor: pointer;
+  text-align: center; 
+}
+.madxartwork-widget-dyncontel-acf .madxartwork-custom-embed-image-overlay:hover .madxartwork-custom-embed-play i {
+  opacity: 0.9;
+  text-shadow: 3px 2px 30px rgba(0, 0, 0, 0.6); 
+}
+.madxartwork-widget-dyncontel-acf .madxartwork-custom-embed-image-overlay img {
+  display: block;
+  width: 100%; 
+}
+.madxartwork-widget-dyncontel-acf.align-dce-center .acf-bg-image{
+  margin: 0 auto;
+}
+.madxartwork-widget-dyncontel-acf.align-dce-right .acf-bg-image{
+  margin: 0 0 0 auto;
+}
+.madxartwork-widget-dyncontel-acf.align-dce-justify .acf-bg-image{
+  display: inline;
+}
+.madxartwork-widget.madxartwork-widget-dyncontel-acf .dynamic-content-for-madxartwork-acfimage-bg{
+  width: 100%;
+  display: inline-block;
+  margin-bottom: -5px;
+}
+.madxartwork-widget-dyncontel-acf.align-dce-justify .dynamic-content-for-madxartwork-acfimage-bg{
+  width: 100% !important;
+}
+
+.dynamic-content-for-madxartwork-acf{
+  position: relative;
+  transition: all 0.5s ease;
+  display: inline-block; /*NOTA: questo crea uno spazio sotto al widget*/
+  /*margin-bottom: -4px; NOTA: il floating annulla lo spazio sotto*/
+}
+.use-bg1  .dynamic-content-for-madxartwork-acf,
+.madxartwork-widget-dyncontel-acf.align-dce-justify .dynamic-content-for-madxartwork-acf {
+  display: block;
+}
+.dynamic-content-for-madxartwork-acf .edc-acf{
+  display: inline;
+  transition: all 0.5s ease;
+}
+.madxartwork-widget-dyncontel-acf .dynamic-content-for-madxartwork-acf{
+
+}
+.madxartwork-widget-dyncontel-acf.align-dce-justify .dynamic-content-for-madxartwork-acf{
+  display: block;
+}
+.madxartwork-widget-dyncontel-acf.hyphens-yes .dynamic-content-for-madxartwork-acf{
+  -webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+}

@@ -1,0 +1,17 @@
+/* --------- Add to favorites -------- */
+.madxartwork-widget-dce-add-to-favorites .madxartwork-align-counter-left{
+    order: 0;
+}
+.madxartwork-widget-dce-add-to-favorites .madxartwork-align-counter-right{
+    order: 100;
+}
+.madxartwork-widget-dce-add-to-favorites .madxartwork-button-icon i{
+    line-height: 0;
+    vertical-align: middle;
+}
+.dce-add-to-favorite-remove .dce-add-to-favorite-icon-add,
+.dce-add-to-favorite-remove .dce-add-to-favorite-text-add,
+.dce-add-to-favorite-add .dce-add-to-favorite-icon-remove,
+.dce-add-to-favorite-add .dce-add-to-favorite-text-remove {
+    display: none;
+}
